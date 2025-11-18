@@ -360,6 +360,16 @@ namespace XUnity.AutoTranslator.Setup.Properties {
             }
         }
 
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] OpenAITranslate{
+            get{
+                object obj = ResourceManager.GetObject("OpenAITranslate", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
       /// <summary>
       ///   Looks up a localized resource of type System.Byte[].
       /// </summary>
